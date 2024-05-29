@@ -1,7 +1,7 @@
 public class CapitalizarPalabras {
 
     public static String capitalizarPalabra(String palabra) {
-        return palabra.substring(0, 1).toUpperCase() + palabra.substring(1).toLowerCase();
+        return palabra.substring(0, 1).toLowerCase() + palabra.substring(1).toUpperCase();
     }
 
     public static String capitalizarFrase(String frase) {
@@ -20,6 +20,6 @@ public class CapitalizarPalabras {
         String fraseCapitalizada = capitalizarFrase(fraseOriginal);
 
         System.out.println("Frase original: " + fraseOriginal);
-        System.out.println("Frase con mayúsculas iniciales: " + fraseCapitalizada);
+        System.out.println("Frase con minusculas iniciales: " + fraseCapitalizada);
     }
 }
